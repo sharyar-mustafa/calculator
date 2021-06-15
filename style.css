@@ -1,0 +1,40 @@
+.main_div{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+.calculator{
+    display:inline-block;
+    background-color: black;
+   
+}
+input{
+    font-size: 29px;
+    width: 302px;
+    height: 50px;
+    background-color: rgba(211, 211, 211, 0.349);
+    text-align: right;
+    border: none;
+
+}
+#maininput{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-size: 26px;
+    border: none;
+    background-color: black;
+    color: blanchedalmond;
+    height: 60px;
+    width: 72px;
+    padding: 0px ;
+    margin: 0px;
+}
+button:hover{
+    background-color: rgb(29, 29, 29);
+    color: gold;
+    
+}
